@@ -50,7 +50,7 @@ async def get_manifest(request):
 
 @app.route("/.well-known/logo.png")
 async def get_logo(request):
-    file_path = "./local_server/logo.png"
+    file_path = "./local_server/azureml_logo.png"
     return FileResponse(file_path, media_type="text/json")
 
 
